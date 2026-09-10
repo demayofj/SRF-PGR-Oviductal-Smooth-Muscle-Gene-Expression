@@ -8,8 +8,9 @@ Below are instructions for reproducing the results seen in this work.
 
 The following external tools were used in preparing these results:
 
-* Command-line tools: **Trimmomatic (v0.39), HISAT2 (v2.2.1), SAMTools (v1.18), MACS3 (v3.0.0), HOMER (v4.11), DeepTools (v3.5.4)**
+* Command-line tools: **Trimmomatic (v0.39), HISAT2 (v2.2.1), SAMTools (v1.18), MACS3 (v3.0.0), HOMER (v4.11), DeepTools (v3.5.4), Python (v3.10.8)**
 * R packages: **DESeq2**
+* Python packages: **numpy, pandas, scipy, matplotlib**
 * Online tools: **CIBERSORTx**
 
 Please install the above tools before proceeding. For help with using the command-line tools (used to create count matrices), please see the [DeMayo Bulk Omics](https://github.com/Petronian/demayo-bulk-omics) repository.

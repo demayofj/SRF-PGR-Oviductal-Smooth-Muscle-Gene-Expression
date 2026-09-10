@@ -1,0 +1,15 @@
+1. Fix a crash related to the speed of contraction function that we are not using.
+Search for checkSpeedlinearity=true. Near the top you'll find:
+var checkSpeedlinearity=true;
+Change to:
+var checkSpeedlinearity=false;
+This skips a crashing function.
+2. Let the framerate field accept 8.5. 
+Search for frames/second. You'll land on:
+Dialog.addNumber("   ", recordedFramerate, 0, 5, "frames/second");
+Change the 0 (third argument — the decimal places) to 1:
+Dialog.addNumber("   ", recordedFramerate, 1, 5, "frames/second");
+Then search for c1.recordedFramerate and find the write line (not the read line):
+writeSettingValue("c1.recordedFramerate", recordedFramerate, 0);
+Change its trailing 0 to 1:
+writeSettingValue("c1.recordedFramerate", recordedFramerate, 1);

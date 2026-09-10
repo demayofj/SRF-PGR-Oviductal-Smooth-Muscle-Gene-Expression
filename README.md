@@ -43,3 +43,13 @@ This section requires [Ingenuity Pathway Analysis (IPA)](https://digitalinsights
 IPA takes in DEG lists of various samples and outputs information about differential regulation of gene pathways that are present within the samples represented by the DEG lists. Please see the **RNA sequencing** section above for information about generating DEG lists; an additional list representing Pgr knockout (PRKO) data was downloaded from Akison et al., 2014, Physiological Genomics, and is present in Table S1. Notebooks showing how to make plots from these data are also included in the `notebooks/RNA-Sequencing' section.
 
 Additionally, SRF and PGR expression mapping in human fallopian tube single cell RNA-seq was done using [this online tool](https://www.simplesinglecell.org/winuthayanon/humanFT/) that contains data from McGlade et al., 2021, FASEB Journal; please see the webpage for more information.
+
+## Analysis of ex vivo oviduct video files for automated contraction quantification
+The `ex-vivo-oviduct-video-analysis` folder contains the lightly edited version of the "MUSCLEMOTION v1-1beta.ijm" open-source imageJ macro used for quantifying motion in the videos. 
+
+Original publication:
+Sala L, van Meer BJ, Tertoolen LGJ, Bakkers J, Bellin M, Davis RP, Denning C, Dieben MAE, Eschenhagen T, Giacomelli E, Grandela C, Hansen A, Holman ER, Jongbloed MRM, Kamel SM, Koopman CD, Lachaud Q, Mannhardt I, Mol MPH, Mosqueira D, Orlova VV, Passier R, Ribeiro MC, Saleem U, Smith GL, Burton FL, Mummery CL. MUSCLEMOTION: A Versatile Open Software Tool to Quantify Cardiomyocyte and Cardiac Muscle Contraction In Vitro and In Vivo. Circ Res. 2018 Feb 2;122(3):e5-e16. doi: 10.1161/CIRCRESAHA.117.312067. Epub 2017 Dec 27. PMID: 29282212; PMCID: PMC5805275.
+
+This folder also contains the python script used to process and analyze the raw MUSCLEMOTION output data to compute contraction frequency.
+The "-verbose" version contains the same code but with more comments explaining how the script works.
+Please see the corresponding section in the manuscript methods for details.

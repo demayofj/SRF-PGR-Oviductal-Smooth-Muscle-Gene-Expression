@@ -1,5 +1,7 @@
 # Serum Response Factor Cooperates with Progesterone Receptor to Regulate Oviductal Smooth Muscle Gene Expression During Preimplantation Embryo Transport
 
+This entry supports this published article: P. F. Lais, R. M. Marquardt, S.-P. Wu, J. P. Lydon, and F. J. DeMayo, “Serum Response Factor Cooperates With Progesterone Receptor to Regulate Oviductal Smooth Muscle Gene Expression During Preimplantation Embryo Transport,” The FASEB Journal 40, no. 20 (2026): e72410, https://doi.org/10.1096/fj.202601362R.
+
 This work identifies SRF as an important regulator of the myosalpinx and described the genes it physically interacts with and modulates in the mouse oviduct during the key stage of embryo transport. We have also shown evidence of cooperation between SRF and PGR in regulating the oviductal smooth muscle genes. These findings provide insight into the gene regulatory requirements for oviductal embryo transport and identify potential contributors to disorders of the human fallopian tube such as ectopic pregnancy.
 
 Below are instructions for reproducing the results seen in this work.
